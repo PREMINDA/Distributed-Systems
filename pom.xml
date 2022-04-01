@@ -5,12 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>TestingMS</artifactId>
+    <artifactId>Distributed-Systems</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>customer</module>
+        <module>fraud</module>
     </modules>
 
     <properties>
