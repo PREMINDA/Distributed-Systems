@@ -1,4 +1,10 @@
 package com.example.clients.notification;
 
-public record NotificationRequest() {
+import lombok.ToString;
+
+@ToString
+public record NotificationRequest(Integer toCustomerId,
+        String toCustomerEmail,
+        String sender, String message
+        ) {
 }
