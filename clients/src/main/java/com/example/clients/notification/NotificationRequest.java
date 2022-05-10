@@ -1,7 +1,8 @@
 package com.example.clients.notification;
 
-public record NotificationRequest(Integer toCustomerId,
+public record NotificationRequest(
+        Integer toCustomerId,
         String toCustomerEmail,
-        String sender, String message
+        String message
         ) {
 }

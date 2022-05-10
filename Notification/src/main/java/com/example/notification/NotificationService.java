@@ -15,7 +15,7 @@ public class NotificationService {
     public void send(NotificationRequest notificationRequest){
         notificationRepository.save(
                 Notification.builder()
-                        .toCustomerEmail(notificationRequest.toCustomerEmail())
+                        .toCustomerId(notificationRequest.toCustomerId())
                         .toCustomerEmail(notificationRequest.toCustomerEmail())
                         .sender("Preminda")
                         .message(notificationRequest.message())
