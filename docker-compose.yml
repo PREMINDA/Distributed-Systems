@@ -27,6 +27,10 @@ services:
     networks:
       - postgres
     restart: unless-stopped
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - "9411:9411"
 
 networks:
   postgres:
